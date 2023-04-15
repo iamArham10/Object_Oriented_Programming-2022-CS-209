@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using EZInput;
 using System.IO;
 
 namespace Shooting_Game
@@ -25,7 +27,7 @@ namespace Shooting_Game
                     Print_maze(maze, rows, column); // prints the maze on the console.
                     spaceship DeathStar = new spaceship();
                     DeathStar.position_x = 5;
-                    DeathStar.position_y = 5;
+                    DeathStar.position_y = 2;
                     Create_Spaceship(DeathStar, DeathStar.position_x, DeathStar.position_y);
                     spaceship reaver = new spaceship();
                     reaver.position_x = 92;
@@ -33,6 +35,28 @@ namespace Shooting_Game
                     Create_Spaceship(reaver, reaver.position_x, reaver.position_y);
                     Print_spaceship(DeathStar, DeathStar.position_x, DeathStar.position_y);
                     Print_spaceship(reaver, reaver.position_x, reaver.position_y);
+                    bool game_running = true;
+                    while (game_running)
+                    {
+                        Thread.Sleep(100);
+                        if (Keyboard.IsKeyPressed(Key.UpArrow))
+                        {
+                            Move_SpaceShip_Up(DeathStar, maze,ref DeathStar.position_x, ref DeathStar.position_y);
+                        }
+                        if (Keyboard.IsKeyPressed(Key.DownArrow))
+                        {
+                            Move_SpaceShip_Down(DeathStar, maze , ref DeathStar.position_x, ref DeathStar.position_y);
+                        }
+                        if (Keyboard.IsKeyPressed(Key.RightArrow))
+                        {
+                            Move_SpaceShip_Right(DeathStar, maze,ref DeathStar.position_x, ref DeathStar.position_y);
+                        }
+                        if (Keyboard.IsKeyPressed(Key.LeftArrow))
+                        {
+                            Move_SpaceShip_Left(DeathStar,maze, ref DeathStar.position_x, ref DeathStar.position_y);
+                        }
+                    }
+                    
 
                 }
                 else if (option == '2')
@@ -135,6 +159,48 @@ namespace Shooting_Game
             }
         }
 
+        static void Move_SpaceShip_Down(spaceship Death_Star, char [,] maze,ref int position_x, ref int position_y)
+        {
+            if (maze[position_x, position_y+2] == 's')
+            {
+                erase_spaceship(Death_Star, position_x, position_y);
+                position_y++;
+                Print_spaceship(Death_Star, position_x, position_y);
+            }
+        }
+
+
+        static void Move_SpaceShip_Up(spaceship Death_Star, char [,] maze,ref int position_x, ref int position_y)
+        {
+            if (maze[position_x, position_y-1] == 's')
+            {
+                erase_spaceship(Death_Star, position_x, position_y);
+                position_y--;
+                Print_spaceship(Death_Star, position_x, position_y);
+
+            }
+        }
+
+        static void Move_SpaceShip_Left(spaceship Death_Star, char [,] maze,ref int position_x, ref int position_y)
+        {
+            if (maze[position_x-1, position_y] == 's')
+            {
+                erase_spaceship(Death_Star, position_x, position_y);
+                position_x--;
+                Print_spaceship(Death_Star, position_x, position_y);
+            }
+        }
+
+        static void Move_SpaceShip_Right(spaceship Death_Star,char [,] maze, ref int position_x, ref int position_y)
+        {
+            if (maze[position_x + 1, position_y] == 's')
+            {
+                erase_spaceship(Death_Star, position_x, position_y);
+                position_x++;
+                Print_spaceship(Death_Star, position_x, position_y);
+            }
+        }
+
         static void erase_spaceship (spaceship spaceship, int x, int y)
         {
             for (int row = 0; row < 3; row++)
@@ -142,7 +208,7 @@ namespace Shooting_Game
                 Console.SetCursorPosition(x, y);
                 for (int column = 0; column < 2; column++)
                 {
-                    Console.Write(spaceship.structure[row, column]);
+                    Console.Write(' ');
                 }
                 y++;
             }

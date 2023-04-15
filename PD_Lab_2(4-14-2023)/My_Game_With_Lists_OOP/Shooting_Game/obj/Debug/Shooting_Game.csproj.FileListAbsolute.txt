@@ -5,3 +5,6 @@ C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_
 C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_2(4-14-2023)\My_Game_With_Lists_OOP\Shooting_Game\obj\Debug\Shooting_Game.csproj.CoreCompileInputs.cache
 C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_2(4-14-2023)\My_Game_With_Lists_OOP\Shooting_Game\obj\Debug\Shooting_Game.exe
 C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_2(4-14-2023)\My_Game_With_Lists_OOP\Shooting_Game\obj\Debug\Shooting_Game.pdb
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_2(4-14-2023)\My_Game_With_Lists_OOP\Shooting_Game\bin\Debug\EZInput.dll
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_2(4-14-2023)\My_Game_With_Lists_OOP\Shooting_Game\bin\Debug\EZInput.xml
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_2(4-14-2023)\My_Game_With_Lists_OOP\Shooting_Game\obj\Debug\Shooting_Game.csproj.CopyComplete
