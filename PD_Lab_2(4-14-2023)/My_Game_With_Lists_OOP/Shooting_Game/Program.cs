@@ -21,6 +21,7 @@ namespace Shooting_Game
                 {
                     Console.Clear();
                     int rows = 30;
+                    bool reaverposition = true;
                     int column = 120;
                     char[,] maze = new char[rows, column];
                     Load_maze(maze, maze_path);  // loads the maze from file into the maze character 2D array
@@ -54,6 +55,15 @@ namespace Shooting_Game
                         if (Keyboard.IsKeyPressed(Key.LeftArrow))
                         {
                             Move_SpaceShip_Left(DeathStar,maze, ref DeathStar.position_x, ref DeathStar.position_y);
+                        }
+                        Move_Reaver(reaver, maze, ref reaver.position_x, ref reaver.position_y, reaverposition);
+                        if (reaver.position_y >= 25)
+                        {
+                            reaverposition = false;
+                        }
+                        else if (reaver.position_y <= 2)
+                        {
+                            reaverposition = true;
                         }
                     }
                     
@@ -144,6 +154,27 @@ namespace Shooting_Game
             newspaceship.structure[1, 1] = right_gun;
             newspaceship.structure[2, 1] = circle;
         }
+        
+        static void Move_Reaver(spaceship Spaceship,char[,] maze,ref int position_x, ref int position_y, bool position)
+        {
+            if (position == true)
+            { 
+                    erase_spaceship(Spaceship, position_x, position_y);
+                    position_y++;
+                    Print_spaceship(Spaceship, position_x, position_y);
+                
+            }
+            else if (position == false)
+            {
+                
+                
+                    erase_spaceship(Spaceship, position_x, position_y);
+                    position_y--;
+                    Print_spaceship(Spaceship, position_x, position_y);
+                
+            }
+        }
+
 
         static void Print_spaceship (spaceship Spaceship, int x , int y)
         {
@@ -161,7 +192,7 @@ namespace Shooting_Game
 
         static void Move_SpaceShip_Down(spaceship Death_Star, char [,] maze,ref int position_x, ref int position_y)
         {
-            if (maze[position_x, position_y+2] == 's')
+            if (maze[position_x, position_y+1] == 's')
             {
                 erase_spaceship(Death_Star, position_x, position_y);
                 position_y++;
