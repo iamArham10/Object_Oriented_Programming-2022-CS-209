@@ -26,20 +26,38 @@ namespace Shooting_Game
                     char[,] maze = new char[rows, column];
                     Load_maze(maze, maze_path);  // loads the maze from file into the maze character 2D array
                     Print_maze(maze, rows, column); // prints the maze on the console.
+
+                    // Creating Player's Spaceship
                     spaceship DeathStar = new spaceship();
                     DeathStar.position_x = 5;
                     DeathStar.position_y = 2;
                     Create_Spaceship(DeathStar, DeathStar.position_x, DeathStar.position_y);
+
+                    // Creating Enemy Spaceship
                     spaceship reaver = new spaceship();
                     reaver.position_x = 92;
                     reaver.position_y = 5;
                     Create_Spaceship(reaver, reaver.position_x, reaver.position_y);
                     Print_spaceship(DeathStar, DeathStar.position_x, DeathStar.position_y);
                     Print_spaceship(reaver, reaver.position_x, reaver.position_y);
+
+                    // bullets of our player
+                    bullet[] deathstar_bullets = new bullet[1000];
+                    int bullet_count = 0;
+                    char bullet = '.';
+
+                    // bullets of reaver enemy
+                    bullet[] reaver_bullets = new bullet[1000];
+                    int reaver_bullet_count = 0;
                     bool game_running = true;
                     while (game_running)
                     {
                         Thread.Sleep(100);
+                        Print_Health(DeathStar.health, reaver.health);
+                        if (DeathStar.health <= 1)
+                        {
+                            break;
+                        }
                         if (Keyboard.IsKeyPressed(Key.UpArrow))
                         {
                             Move_SpaceShip_Up(DeathStar, maze,ref DeathStar.position_x, ref DeathStar.position_y);
@@ -56,7 +74,15 @@ namespace Shooting_Game
                         {
                             Move_SpaceShip_Left(DeathStar,maze, ref DeathStar.position_x, ref DeathStar.position_y);
                         }
+                        if (Keyboard.IsKeyPressed(Key.Space))
+                        {
+                            Generate_Death_Star_bullets(deathstar_bullets,ref bullet_count, DeathStar.position_x, DeathStar.position_y, bullet);
+                        }
+                        Generate_Enemy_bullets(reaver_bullets, ref reaver_bullet_count, reaver.position_x, reaver.position_y, bullet);
+                        Move_Enemy_Bullets(reaver_bullets, reaver_bullet_count, bullet,maze, DeathStar.position_x, DeathStar.position_y,ref reaver.health);
+                        Move_Bullet(deathstar_bullets, bullet_count, bullet, maze,reaver.position_x, reaver.position_y, ref DeathStar.health);
                         Move_Reaver(reaver, maze, ref reaver.position_x, ref reaver.position_y, reaverposition);
+
                         if (reaver.position_y >= 25)
                         {
                             reaverposition = false;
@@ -65,6 +91,8 @@ namespace Shooting_Game
                         {
                             reaverposition = true;
                         }
+
+
                     }
                     
 
@@ -101,6 +129,7 @@ namespace Shooting_Game
             }  
         }
 
+
         static char Print_Menu()
         {
             Console.WriteLine("Enter The Following Options: ");
@@ -111,15 +140,44 @@ namespace Shooting_Game
             return option;
         }
 
+        static void Print_Health(int player_health, int enemy_health)
+        {
+            
+            string Player_health =  player_health.ToString();
+            int ph_x = 101;
+            int ph_y = 8;
+            int en_x = ph_x;
+            int en_y = ph_y+1;
+            string Enemy_health = enemy_health.ToString();
+            Console.SetCursorPosition(ph_x, ph_y);
+            Erase_word(Player_health);
+            Console.SetCursorPosition(ph_x, ph_y);
+            Console.Write("Enemy Health:" + Player_health);
+
+            Console.SetCursorPosition(en_x, en_y);
+            Erase_word(Player_health);
+            Console.SetCursorPosition(en_x, en_y);
+            Console.Write("Health:      " + Enemy_health);
+        }
+
+        static void Erase_word(string word)
+        {
+            for (int idx = 0; idx < 4;idx++)
+            {
+                Console.Write(' ');
+            }
+        }
+
         static void Print_maze(char [, ] maze, int rows, int columns)
         {
+            char wall = Convert.ToChar(165);
             for (int row = 0; row < rows; row++)
             {
                 for (int column = 0; column < columns; column++)
                 {
                     if (maze[row, column] == 'w')
                     {
-                        Console.Write("#");
+                        Console.Write(wall);
                     }
                     else if (maze[row, column] == 's')
                     {
@@ -165,13 +223,10 @@ namespace Shooting_Game
                 
             }
             else if (position == false)
-            {
-                
-                
+            {  
                     erase_spaceship(Spaceship, position_x, position_y);
                     position_y--;
-                    Print_spaceship(Spaceship, position_x, position_y);
-                
+                    Print_spaceship(Spaceship, position_x, position_y);  
             }
         }
 
@@ -190,6 +245,113 @@ namespace Shooting_Game
             }
         }
 
+        static void Generate_Death_Star_bullets(bullet[] bullets,ref int bullet_count, int death_star_position_x, int death_star_position_y, char bullet)
+        {
+            bullets[bullet_count] = Create_bullet(death_star_position_x+1, death_star_position_y);
+            Console.SetCursorPosition(bullets[bullet_count].position_x, bullets[bullet_count].position_y);
+            Console.Write(bullet);
+            bullet_count++;
+        }
+
+        static void Generate_Enemy_bullets(bullet[] bullets, ref int bullet_count, int reaver_position_x, int reaver_position_y, char bullet)
+        {
+            bullets[bullet_count] = Create_bullet(reaver_position_x - 1, reaver_position_y);
+            Console.SetCursorPosition(bullets[bullet_count].position_x, bullets[bullet_count].position_y);
+            Console.Write(bullet);
+            bullet_count++;
+        }
+
+        static void Move_Enemy_Bullets(bullet[] bullets, int bullet_count, char bullet, char[,] maze, int spaceship_position_x, int spaceship_position_y, ref int health)
+        {
+            for (int current_bullet = 0; current_bullet < bullet_count; current_bullet++)
+            {
+                if (Is_Bullet_Active(bullets, current_bullet))
+                {
+                    if (spaceship_position_x == bullets[current_bullet].position_x && spaceship_position_y == bullets[current_bullet].position_y)
+                    {
+                        Erase_Bullet(spaceship_position_x, spaceship_position_y);
+                        Make_Bullet_InActive(bullets, current_bullet);
+                        health--;
+                    }
+                    if (maze[bullets[current_bullet].position_y , bullets[current_bullet].position_x - 2] != 's')
+                    {
+                        Make_Bullet_InActive(bullets, current_bullet);
+                        Erase_Bullet(bullets[current_bullet].position_x, bullets[current_bullet].position_y);  
+                    }
+                    else
+                    {
+                        Erase_Bullet(bullets[current_bullet].position_x, bullets[current_bullet].position_y);
+                        bullets[current_bullet].position_x--;
+                        Print_Bullet(bullets[current_bullet].position_x, bullets[current_bullet].position_y, bullet);
+                    }
+                }
+            }
+        }
+
+        static void Print_Bullet(int x, int y, char bullet)
+        {
+            Console.SetCursorPosition(x, y);
+            Console.Write(bullet);
+        }
+
+        static void Erase_Bullet(int x, int y)
+        {
+            Console.SetCursorPosition(x, y);
+            Console.Write(' ');
+        }
+
+        static void Move_Bullet(bullet[] bullets, int bullet_count, char bullet, char[,] maze, int enemy_x, int enemy_y, ref int health)
+        {
+            for (int current_bullet = 0; current_bullet < bullet_count; current_bullet++)
+            {
+                if (Is_Bullet_Active(bullets, current_bullet))
+                {
+                    if (enemy_x == bullets[current_bullet].position_x && enemy_y == bullets[current_bullet].position_y)
+                    {
+                        Erase_Bullet(bullets[current_bullet].position_x, bullets[current_bullet].position_y);
+                        Make_Bullet_InActive(bullets, current_bullet);
+                        health--;
+                    }
+                    if (maze[bullets[current_bullet].position_y, bullets[current_bullet].position_x + 2] != 's')
+                    {
+                        Erase_Bullet(bullets[current_bullet].position_x, bullets[current_bullet].position_y);
+                        Make_Bullet_InActive(bullets, current_bullet);
+                    }
+                    else
+                    {
+                        Erase_Bullet(bullets[current_bullet].position_x, bullets[current_bullet].position_y);
+                        bullets[current_bullet].position_x++;
+                        Print_Bullet(bullets[current_bullet].position_x, bullets[current_bullet].position_y, bullet);
+                    }
+                }
+            }
+        }
+
+        static void Make_Bullet_InActive( bullet[] bullets, int bullet_index)
+        {
+            bullets[bullet_index].Is_Active = false;
+        }
+
+        static bool Is_Bullet_Active( bullet[] bullet, int bullet_index)
+        {
+            bool Is_active = false;
+            if (bullet[bullet_index].Is_Active == true)
+            {
+                Is_active = true;
+            }
+            return Is_active;
+        }
+
+
+
+        static bullet Create_bullet(int x, int y )
+        {
+            bullet newbullet = new bullet();
+            newbullet.position_x = x;
+            newbullet.position_y = y;
+            newbullet.Is_Active = true;
+            return newbullet;
+        }
         static void Move_SpaceShip_Down(spaceship Death_Star, char [,] maze,ref int position_x, ref int position_y)
         {
             if (maze[position_x, position_y+1] == 's')

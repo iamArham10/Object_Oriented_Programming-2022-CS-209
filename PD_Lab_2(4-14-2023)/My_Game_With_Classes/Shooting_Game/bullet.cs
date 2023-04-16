@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Shooting_Game
 {
-    class spaceship
+    class bullet
     {
         public int position_x;
         public int position_y;
-        public char[,] structure = new char[3, 2];
-        
+        public bool Is_Active;
     }
 }
