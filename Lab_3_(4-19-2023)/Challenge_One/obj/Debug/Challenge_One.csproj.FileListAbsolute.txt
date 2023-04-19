@@ -1,0 +1,7 @@
+C:\Users\Win 10\Documents\Lab_3_Tasks\Challenge_One\Challenge_One\bin\Debug\Challenge_One.exe.config
+C:\Users\Win 10\Documents\Lab_3_Tasks\Challenge_One\Challenge_One\bin\Debug\Challenge_One.exe
+C:\Users\Win 10\Documents\Lab_3_Tasks\Challenge_One\Challenge_One\bin\Debug\Challenge_One.pdb
+C:\Users\Win 10\Documents\Lab_3_Tasks\Challenge_One\Challenge_One\obj\Debug\Challenge_One.csproj.AssemblyReference.cache
+C:\Users\Win 10\Documents\Lab_3_Tasks\Challenge_One\Challenge_One\obj\Debug\Challenge_One.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Documents\Lab_3_Tasks\Challenge_One\Challenge_One\obj\Debug\Challenge_One.exe
+C:\Users\Win 10\Documents\Lab_3_Tasks\Challenge_One\Challenge_One\obj\Debug\Challenge_One.pdb

@@ -1,0 +1,7 @@
+C:\Users\Win 10\Documents\Lab_3_Tasks\Task-01-ClockClass\Clock_Type\bin\Debug\Clock_Type.exe.config
+C:\Users\Win 10\Documents\Lab_3_Tasks\Task-01-ClockClass\Clock_Type\bin\Debug\Clock_Type.exe
+C:\Users\Win 10\Documents\Lab_3_Tasks\Task-01-ClockClass\Clock_Type\bin\Debug\Clock_Type.pdb
+C:\Users\Win 10\Documents\Lab_3_Tasks\Task-01-ClockClass\Clock_Type\obj\Debug\Clock_Type.csproj.AssemblyReference.cache
+C:\Users\Win 10\Documents\Lab_3_Tasks\Task-01-ClockClass\Clock_Type\obj\Debug\Clock_Type.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Documents\Lab_3_Tasks\Task-01-ClockClass\Clock_Type\obj\Debug\Clock_Type.exe
+C:\Users\Win 10\Documents\Lab_3_Tasks\Task-01-ClockClass\Clock_Type\obj\Debug\Clock_Type.pdb

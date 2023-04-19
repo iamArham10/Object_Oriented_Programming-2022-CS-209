@@ -1,0 +1,7 @@
+C:\Users\Win 10\Documents\Lab_3_Tasks\Task_1A\Task_1A\bin\Debug\Task_1A.exe.config
+C:\Users\Win 10\Documents\Lab_3_Tasks\Task_1A\Task_1A\bin\Debug\Task_1A.exe
+C:\Users\Win 10\Documents\Lab_3_Tasks\Task_1A\Task_1A\bin\Debug\Task_1A.pdb
+C:\Users\Win 10\Documents\Lab_3_Tasks\Task_1A\Task_1A\obj\Debug\Task_1A.csproj.AssemblyReference.cache
+C:\Users\Win 10\Documents\Lab_3_Tasks\Task_1A\Task_1A\obj\Debug\Task_1A.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Documents\Lab_3_Tasks\Task_1A\Task_1A\obj\Debug\Task_1A.exe
+C:\Users\Win 10\Documents\Lab_3_Tasks\Task_1A\Task_1A\obj\Debug\Task_1A.pdb
