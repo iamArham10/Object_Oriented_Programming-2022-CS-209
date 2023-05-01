@@ -1,0 +1,20 @@
+C:\Users\Win 10\source\repos\Business APplication\Business APplication\bin\Debug\Business APplication.exe.config
+C:\Users\Win 10\source\repos\Business APplication\Business APplication\bin\Debug\Business APplication.exe
+C:\Users\Win 10\source\repos\Business APplication\Business APplication\bin\Debug\Business APplication.pdb
+C:\Users\Win 10\source\repos\Business APplication\Business APplication\obj\Debug\Business APplication.csproj.AssemblyReference.cache
+C:\Users\Win 10\source\repos\Business APplication\Business APplication\obj\Debug\Business APplication.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\source\repos\Business APplication\Business APplication\obj\Debug\Business APplication.exe
+C:\Users\Win 10\source\repos\Business APplication\Business APplication\obj\Debug\Business APplication.pdb
+C:\Users\Win 10\source\repos\Business APplication\Business APplication\bin\Debug\EZInput.dll
+C:\Users\Win 10\source\repos\Business APplication\Business APplication\bin\Debug\EZInput.xml
+C:\Users\Win 10\source\repos\Business APplication\Business APplication\obj\Debug\Business APplication.csproj.CopyComplete
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_3(4-28-2023)\Business_Application\BA_Constructors\Business APplication\bin\Debug\Business APplication.exe.config
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_3(4-28-2023)\Business_Application\BA_Constructors\Business APplication\bin\Debug\Business APplication.exe
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_3(4-28-2023)\Business_Application\BA_Constructors\Business APplication\bin\Debug\Business APplication.pdb
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_3(4-28-2023)\Business_Application\BA_Constructors\Business APplication\bin\Debug\EZInput.dll
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_3(4-28-2023)\Business_Application\BA_Constructors\Business APplication\bin\Debug\EZInput.xml
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_3(4-28-2023)\Business_Application\BA_Constructors\Business APplication\obj\Debug\Business APplication.csproj.AssemblyReference.cache
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_3(4-28-2023)\Business_Application\BA_Constructors\Business APplication\obj\Debug\Business APplication.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_3(4-28-2023)\Business_Application\BA_Constructors\Business APplication\obj\Debug\Business APplication.csproj.CopyComplete
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_3(4-28-2023)\Business_Application\BA_Constructors\Business APplication\obj\Debug\Business APplication.exe
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_3(4-28-2023)\Business_Application\BA_Constructors\Business APplication\obj\Debug\Business APplication.pdb
