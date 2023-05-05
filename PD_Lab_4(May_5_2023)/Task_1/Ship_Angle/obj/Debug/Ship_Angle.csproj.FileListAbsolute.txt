@@ -1,0 +1,7 @@
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_4(May_5_2023)\Task_1\Ship_Angle\obj\Debug\Ship_Angle.csproj.AssemblyReference.cache
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_4(May_5_2023)\Task_1\Ship_Angle\obj\Debug\Ship_Angle.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_4(May_5_2023)\Task_1\Ship_Angle\bin\Debug\Ship_Angle.exe.config
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_4(May_5_2023)\Task_1\Ship_Angle\bin\Debug\Ship_Angle.exe
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_4(May_5_2023)\Task_1\Ship_Angle\bin\Debug\Ship_Angle.pdb
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_4(May_5_2023)\Task_1\Ship_Angle\obj\Debug\Ship_Angle.exe
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\PD_Lab_4(May_5_2023)\Task_1\Ship_Angle\obj\Debug\Ship_Angle.pdb

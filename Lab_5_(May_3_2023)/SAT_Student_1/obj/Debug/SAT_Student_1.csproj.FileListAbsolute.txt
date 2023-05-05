@@ -1,0 +1,7 @@
+C:\Users\Win 10\source\repos\SAT_Student_1\bin\Debug\SAT_Student_1.exe.config
+C:\Users\Win 10\source\repos\SAT_Student_1\bin\Debug\SAT_Student_1.exe
+C:\Users\Win 10\source\repos\SAT_Student_1\bin\Debug\SAT_Student_1.pdb
+C:\Users\Win 10\source\repos\SAT_Student_1\obj\Debug\SAT_Student_1.csproj.AssemblyReference.cache
+C:\Users\Win 10\source\repos\SAT_Student_1\obj\Debug\SAT_Student_1.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\source\repos\SAT_Student_1\obj\Debug\SAT_Student_1.exe
+C:\Users\Win 10\source\repos\SAT_Student_1\obj\Debug\SAT_Student_1.pdb
