@@ -1,0 +1,7 @@
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_6_(May_17_2023)\Self_Assignment_2\Problem_2\obj\Debug\Problem_2.csproj.AssemblyReference.cache
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_6_(May_17_2023)\Self_Assignment_2\Problem_2\obj\Debug\Problem_2.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_6_(May_17_2023)\Self_Assignment_2\Problem_2\bin\Debug\Problem_2.exe.config
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_6_(May_17_2023)\Self_Assignment_2\Problem_2\bin\Debug\Problem_2.exe
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_6_(May_17_2023)\Self_Assignment_2\Problem_2\bin\Debug\Problem_2.pdb
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_6_(May_17_2023)\Self_Assignment_2\Problem_2\obj\Debug\Problem_2.exe
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_6_(May_17_2023)\Self_Assignment_2\Problem_2\obj\Debug\Problem_2.pdb

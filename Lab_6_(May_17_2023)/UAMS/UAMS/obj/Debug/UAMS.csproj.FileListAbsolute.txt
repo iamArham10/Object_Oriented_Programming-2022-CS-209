@@ -1,0 +1,7 @@
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_6_(May_17_2023)\UAMS\UAMS\obj\Debug\UAMS.csproj.AssemblyReference.cache
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_6_(May_17_2023)\UAMS\UAMS\obj\Debug\UAMS.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_6_(May_17_2023)\UAMS\UAMS\bin\Debug\UAMS.exe.config
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_6_(May_17_2023)\UAMS\UAMS\bin\Debug\UAMS.exe
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_6_(May_17_2023)\UAMS\UAMS\bin\Debug\UAMS.pdb
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_6_(May_17_2023)\UAMS\UAMS\obj\Debug\UAMS.exe
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_6_(May_17_2023)\UAMS\UAMS\obj\Debug\UAMS.pdb

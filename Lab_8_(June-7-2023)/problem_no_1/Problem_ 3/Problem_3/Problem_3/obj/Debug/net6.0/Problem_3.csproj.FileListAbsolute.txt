@@ -1,0 +1,15 @@
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\bin\Debug\net6.0\Problem_3.exe
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\bin\Debug\net6.0\Problem_3.deps.json
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\bin\Debug\net6.0\Problem_3.runtimeconfig.json
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\bin\Debug\net6.0\Problem_3.dll
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\bin\Debug\net6.0\Problem_3.pdb
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\obj\Debug\net6.0\Problem_3.csproj.AssemblyReference.cache
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\obj\Debug\net6.0\Problem_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\obj\Debug\net6.0\Problem_3.AssemblyInfoInputs.cache
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\obj\Debug\net6.0\Problem_3.AssemblyInfo.cs
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\obj\Debug\net6.0\Problem_3.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\obj\Debug\net6.0\Problem_3.dll
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\obj\Debug\net6.0\refint\Problem_3.dll
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\obj\Debug\net6.0\Problem_3.pdb
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\obj\Debug\net6.0\Problem_3.genruntimeconfig.cache
+C:\Users\Win 10\Documents\GitHub\Object_Oriented_Programming-2022-CS-209\Lab_8_(June-7-2023)\problem_no_1\Problem_ 3\Problem_3\Problem_3\obj\Debug\net6.0\ref\Problem_3.dll
