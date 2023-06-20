@@ -1,0 +1,4 @@
+﻿Press Any Of The Following Options
+1. Add Employee.
+2. Remove Employee.
+0. Exit.

@@ -1,0 +1,4 @@
+Enter Any Of The Following Option :
+	1. Remove Medicine.
+	2. Remove Medicine Weight.
+	0. Exit.

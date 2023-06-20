@@ -1,0 +1,12 @@
+Enter Any Of The Following Options : 
+1. Take Order.
+2. Add New Medicine.
+3. View Medicines.
+4. Remove Medicine.
+5. Add Medicine Weight.
+6. Change Medicine Price.
+7. Add Medicine Stock.
+9. Previous Sales.
+9. Employee Options.
+0. Exit.
+
