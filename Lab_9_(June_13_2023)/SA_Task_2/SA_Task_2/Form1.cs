@@ -1,0 +1,18 @@
+namespace SA_Task_2
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+           
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            FRM_POPUP fRM_POPUP = new FRM_POPUP();
+            fRM_POPUP.Show();
+        }
+        
+    }
+}

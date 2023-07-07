@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SignInSignUp/1.0.0": {
+        "runtime": {
+          "SignInSignUp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SignInSignUp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
