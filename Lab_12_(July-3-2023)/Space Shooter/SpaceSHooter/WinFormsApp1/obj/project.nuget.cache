@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "h6izmgQZGfaHrqzMzcpe0BE+EcOeqBv80JUp1GxnDerpLax2zc51WQivCVowwGDQhvqyMEqzyZHx4fCq4NotEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Win 10\\Documents\\GitHub\\Object_Oriented_Programming-2022-CS-209\\Lab_12_(July-3-2023)\\Space Shooter\\SpaceSHooter\\WinFormsApp1\\WinFormsApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Win 10\\.nuget\\packages\\ezinput\\1.3.2\\ezinput.1.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}

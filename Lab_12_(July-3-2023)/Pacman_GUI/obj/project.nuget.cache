@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NRzM7r3y0a4XIYtHYmJGWkn486OkpKnkbY/IHFiGUc4qnst7C9iY7ZQSoEA9Tq9Ng4wa9XF2lPcbx6i31hwKRQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Win 10\\Documents\\GitHub\\Object_Oriented_Programming-2022-CS-209\\Lab_12_(July-3-2023)\\Pacman_GUI\\Pacman.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Win 10\\.nuget\\packages\\ezinput\\1.3.2\\ezinput.1.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}

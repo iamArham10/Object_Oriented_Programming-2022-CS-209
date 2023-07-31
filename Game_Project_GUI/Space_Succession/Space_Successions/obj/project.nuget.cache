@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cdBE/1DZj1etAPrp/f8tQekb4B+7vSN1xjkI45tvdJIRo/m+UPJpmZHg/N1Ir/Dc+tr9BaDeCxP7XfgaLEcDoQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Win 10\\Documents\\GitHub\\Object_Oriented_Programming-2022-CS-209\\Game_Project_GUI\\Space_Succession\\Space_Successions\\Space_Successions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Win 10\\.nuget\\packages\\ezinput\\1.3.2\\ezinput.1.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}
