@@ -56,7 +56,7 @@
             lbl_playerScore.BackColor = Color.Transparent;
             lbl_playerScore.Font = new Font("Ravie", 6F, FontStyle.Regular, GraphicsUnit.Point);
             lbl_playerScore.ForeColor = Color.Red;
-            lbl_playerScore.Location = new Point(203, 672);
+            lbl_playerScore.Location = new Point(203, 862);
             lbl_playerScore.Name = "lbl_playerScore";
             lbl_playerScore.Size = new Size(53, 17);
             lbl_playerScore.TabIndex = 0;
@@ -68,7 +68,7 @@
             lbl_SplayerScore.BackColor = Color.Black;
             lbl_SplayerScore.Font = new Font("Monotype Corsiva", 10F, FontStyle.Italic, GraphicsUnit.Point);
             lbl_SplayerScore.ForeColor = Color.White;
-            lbl_SplayerScore.Location = new Point(215, 705);
+            lbl_SplayerScore.Location = new Point(215, 895);
             lbl_SplayerScore.Name = "lbl_SplayerScore";
             lbl_SplayerScore.Size = new Size(19, 24);
             lbl_SplayerScore.TabIndex = 0;
@@ -79,7 +79,7 @@
             lbl_pLayerHealth.AutoSize = true;
             lbl_pLayerHealth.Font = new Font("Ravie", 6F, FontStyle.Regular, GraphicsUnit.Point);
             lbl_pLayerHealth.ForeColor = Color.Red;
-            lbl_pLayerHealth.Location = new Point(22, 672);
+            lbl_pLayerHealth.Location = new Point(22, 862);
             lbl_pLayerHealth.Name = "lbl_pLayerHealth";
             lbl_pLayerHealth.Size = new Size(117, 17);
             lbl_pLayerHealth.TabIndex = 1;
@@ -90,7 +90,7 @@
             lbl_phihrothHealth.AutoSize = true;
             lbl_phihrothHealth.Font = new Font("Ravie", 6F, FontStyle.Regular, GraphicsUnit.Point);
             lbl_phihrothHealth.ForeColor = Color.Red;
-            lbl_phihrothHealth.Location = new Point(532, 672);
+            lbl_phihrothHealth.Location = new Point(532, 862);
             lbl_phihrothHealth.Name = "lbl_phihrothHealth";
             lbl_phihrothHealth.Size = new Size(134, 17);
             lbl_phihrothHealth.TabIndex = 1;
@@ -102,7 +102,7 @@
             lbl_sPlayerHealth.BackColor = Color.Black;
             lbl_sPlayerHealth.Font = new Font("Monotype Corsiva", 10F, FontStyle.Italic, GraphicsUnit.Point);
             lbl_sPlayerHealth.ForeColor = Color.White;
-            lbl_sPlayerHealth.Location = new Point(64, 705);
+            lbl_sPlayerHealth.Location = new Point(64, 895);
             lbl_sPlayerHealth.Name = "lbl_sPlayerHealth";
             lbl_sPlayerHealth.Size = new Size(19, 24);
             lbl_sPlayerHealth.TabIndex = 0;
@@ -114,7 +114,7 @@
             lbl_SsiriousHealth.BackColor = Color.Black;
             lbl_SsiriousHealth.Font = new Font("Monotype Corsiva", 10F, FontStyle.Italic, GraphicsUnit.Point);
             lbl_SsiriousHealth.ForeColor = Color.White;
-            lbl_SsiriousHealth.Location = new Point(376, 705);
+            lbl_SsiriousHealth.Location = new Point(376, 895);
             lbl_SsiriousHealth.Name = "lbl_SsiriousHealth";
             lbl_SsiriousHealth.Size = new Size(19, 24);
             lbl_SsiriousHealth.TabIndex = 0;
@@ -125,7 +125,7 @@
             lbl_siriusHealth.AutoSize = true;
             lbl_siriusHealth.Font = new Font("Ravie", 6F, FontStyle.Regular, GraphicsUnit.Point);
             lbl_siriusHealth.ForeColor = Color.Red;
-            lbl_siriusHealth.Location = new Point(329, 672);
+            lbl_siriusHealth.Location = new Point(329, 862);
             lbl_siriusHealth.Name = "lbl_siriusHealth";
             lbl_siriusHealth.Size = new Size(114, 17);
             lbl_siriusHealth.TabIndex = 1;
@@ -137,7 +137,7 @@
             lbl_SphihrothHealth.BackColor = Color.Black;
             lbl_SphihrothHealth.Font = new Font("Monotype Corsiva", 10F, FontStyle.Italic, GraphicsUnit.Point);
             lbl_SphihrothHealth.ForeColor = Color.White;
-            lbl_SphihrothHealth.Location = new Point(591, 705);
+            lbl_SphihrothHealth.Location = new Point(591, 895);
             lbl_SphihrothHealth.Name = "lbl_SphihrothHealth";
             lbl_SphihrothHealth.Size = new Size(19, 24);
             lbl_SphihrothHealth.TabIndex = 0;
@@ -148,7 +148,7 @@
             lbl_strocridHealth.AutoSize = true;
             lbl_strocridHealth.Font = new Font("Ravie", 6F, FontStyle.Regular, GraphicsUnit.Point);
             lbl_strocridHealth.ForeColor = Color.Red;
-            lbl_strocridHealth.Location = new Point(730, 672);
+            lbl_strocridHealth.Location = new Point(730, 862);
             lbl_strocridHealth.Name = "lbl_strocridHealth";
             lbl_strocridHealth.Size = new Size(134, 17);
             lbl_strocridHealth.TabIndex = 1;
@@ -160,7 +160,7 @@
             lbl_SstrocridHealth.BackColor = Color.Black;
             lbl_SstrocridHealth.Font = new Font("Monotype Corsiva", 10F, FontStyle.Italic, GraphicsUnit.Point);
             lbl_SstrocridHealth.ForeColor = Color.White;
-            lbl_SstrocridHealth.Location = new Point(790, 705);
+            lbl_SstrocridHealth.Location = new Point(790, 895);
             lbl_SstrocridHealth.Name = "lbl_SstrocridHealth";
             lbl_SstrocridHealth.Size = new Size(19, 24);
             lbl_SstrocridHealth.TabIndex = 0;
@@ -171,7 +171,7 @@
             lbl_thrarkreilsHealth.AutoSize = true;
             lbl_thrarkreilsHealth.Font = new Font("Ravie", 6F, FontStyle.Regular, GraphicsUnit.Point);
             lbl_thrarkreilsHealth.ForeColor = Color.Red;
-            lbl_thrarkreilsHealth.Location = new Point(911, 672);
+            lbl_thrarkreilsHealth.Location = new Point(911, 862);
             lbl_thrarkreilsHealth.Name = "lbl_thrarkreilsHealth";
             lbl_thrarkreilsHealth.Size = new Size(160, 17);
             lbl_thrarkreilsHealth.TabIndex = 1;
@@ -183,7 +183,7 @@
             lbl_SthrarkreilsHealth.BackColor = Color.Black;
             lbl_SthrarkreilsHealth.Font = new Font("Monotype Corsiva", 10F, FontStyle.Italic, GraphicsUnit.Point);
             lbl_SthrarkreilsHealth.ForeColor = Color.White;
-            lbl_SthrarkreilsHealth.Location = new Point(978, 705);
+            lbl_SthrarkreilsHealth.Location = new Point(978, 895);
             lbl_SthrarkreilsHealth.Name = "lbl_SthrarkreilsHealth";
             lbl_SthrarkreilsHealth.Size = new Size(19, 24);
             lbl_SthrarkreilsHealth.TabIndex = 0;
@@ -196,7 +196,7 @@
             BackColor = Color.White;
             BackgroundImage = Properties.Resources.Backgroun2;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1358, 738);
+            ClientSize = new Size(1358, 934);
             Controls.Add(lbl_siriusHealth);
             Controls.Add(lbl_thrarkreilsHealth);
             Controls.Add(lbl_strocridHealth);

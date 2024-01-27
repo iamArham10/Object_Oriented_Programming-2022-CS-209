@@ -21,7 +21,7 @@ namespace Space_Successions
         public static Image Get_Game_Object_Image(char displayCharacter)
         {
             Image img = Properties.Resources.None;
-            if (displayCharacter == '|' || displayCharacter == '%')
+            if (displayCharacter == '|' || displayCharacter == '%' || displayCharacter == '#')
                 img = Properties.Resources.wall;
             else if (displayCharacter == '#')
                 img = Properties.Resources.None;

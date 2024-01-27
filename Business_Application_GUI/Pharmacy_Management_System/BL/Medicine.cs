@@ -85,13 +85,5 @@ namespace Pharmacy_Management_System.BL
             }
             return false;
         }
-
-        public Order contains
-        {
-            get => default;
-            set
-            {
-            }
-        }
     }
 }

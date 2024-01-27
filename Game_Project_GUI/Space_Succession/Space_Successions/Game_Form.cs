@@ -17,7 +17,7 @@ namespace Space_Successions
 {
     public partial class Game_Form : Form
     {
-        public static Game_Form instance;
+        public static Game_Form? instance = null;
         public Player gamePlayer;
         GameCell PlayerStartCell;
         Alien A1;
@@ -33,7 +33,7 @@ namespace Space_Successions
 
         private void Game_Form_Load(object sender, EventArgs e)
         {
-            GameGrid Grid = new GameGrid("maze.txt", 17, 50);
+            GameGrid Grid = new GameGrid("maze.txt", 22, 44);
             Image PlayerImage = Game.Get_Game_Object_Image('P');
             PlayerStartCell = Grid.Get_GameCell(10, 18);
             gamePlayer = new(PlayerImage, PlayerStartCell);
@@ -56,7 +56,7 @@ namespace Space_Successions
 
             // Random Alien
             Image RAlien_image = Game.Get_Game_Object_Image('R');
-            GameCell AlienRCell = Grid.Get_GameCell(1, 45);
+            GameCell AlienRCell = Grid.Get_GameCell(1, 18);
             PreviousObject = AlienRCell.CurrentGameObject.gameObjectType;
             ThrarkreilsAlien RAlien = new ThrarkreilsAlien(RAlien_image, AlienRCell);
             RAlien.Previous_Object = PreviousObject;
@@ -64,7 +64,7 @@ namespace Space_Successions
 
             // Player Chasing Alien
             Image SAlien_image = Game.Get_Game_Object_Image('S');
-            GameCell AlienSCell = Grid.Get_GameCell(6, 39);
+            GameCell AlienSCell = Grid.Get_GameCell(6, 34);
             PreviousObject = AlienSCell.CurrentGameObject.GameObjectType;
             PhihrothAlien SAlien = new PhihrothAlien(SAlien_image, AlienSCell, gamePlayer);
             SAlien.Previous_Object = PreviousObject;
@@ -170,7 +170,7 @@ namespace Space_Successions
 
         public void Move_Bullets()
         {
-            foreach(PlayerFire fire in FireDL.fires)
+            foreach (PlayerFire fire in FireDL.fires)
             {
                 GameCell Cell = fire.CurrentCell_GS;
                 GameCell nextCell = fire.Move();
@@ -192,7 +192,7 @@ namespace Space_Successions
             {
                 if (CollisionDetection.IsAlienCollideWithPacman(alien)) gamePlayer.Health--;
                 if (CollisionDetection.isCollideWithbullet(alien))
-                { 
+                {
                     alien.Health--;
                     gamePlayer.Score += 10;
                 }

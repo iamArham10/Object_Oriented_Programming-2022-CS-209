@@ -19,22 +19,19 @@ namespace Space_Successions
         public override GameCell Move()
         {
             GameCell currentCell = CurrentCell_GS;
-            GameCell nextCell = null;
-            GameObjectType type = GameObjectType.None;
-            while (nextCell == null)
+            GameObjectType ot = Previous_Object;
+            GameCell nextCell = currentCell;
+            while (nextCell == currentCell)
             {
                 GameObjectDirection random = Get_Random_Direction();
                 nextCell = currentCell.Next_Cell(random);
-                if (nextCell.CurrentGameObject.gameObjectType == GameObjectType.None || nextCell.CurrentGameObject.gameObjectType == GameObjectType.Reward)
-                {
-                    type = nextCell.CurrentGameObject.GameObjectType;
-                }
-                CurrentCell_GS = nextCell;
-                currentCell.Set_Game_Object(Game.Get_Blank_GameObject());
             }
-            if (type == GameObjectType.Reward)
-                currentCell.Set_Game_Object(Game.Get_Blank_GameObject());
-            else if (type == GameObjectType.None)
+            Previous_Object = nextCell.CurrentGameObject.GameObjectType;
+            CurrentCell_GS = nextCell;
+
+            if (ot == GameObjectType.Reward)
+                currentCell.Set_Game_Object(Game.Get_Pallet_GameObject());
+            if (ot == GameObjectType.None)
                 currentCell.Set_Game_Object(Game.Get_Blank_GameObject());
             return nextCell;
         }

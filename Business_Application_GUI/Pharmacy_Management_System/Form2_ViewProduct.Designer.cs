@@ -57,15 +57,16 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
             dataGridView1_Products.DefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1_Products.GridColor = Color.White;
-            dataGridView1_Products.Location = new Point(249, 151);
+            dataGridView1_Products.Location = new Point(244, 151);
             dataGridView1_Products.MultiSelect = false;
             dataGridView1_Products.Name = "dataGridView1_Products";
             dataGridView1_Products.ReadOnly = true;
             dataGridView1_Products.RowHeadersWidth = 62;
             dataGridView1_Products.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             dataGridView1_Products.RowTemplate.Height = 33;
-            dataGridView1_Products.Size = new Size(698, 366);
+            dataGridView1_Products.Size = new Size(707, 366);
             dataGridView1_Products.TabIndex = 0;
+            dataGridView1_Products.CellContentClick += dataGridView1_Products_CellContentClick;
             // 
             // tableLayoutPanel1
             // 
@@ -82,6 +83,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 91.04234F));
             tableLayoutPanel1.Size = new Size(1126, 614);
             tableLayoutPanel1.TabIndex = 1;
+            tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
             // 
             // btn_back
             // 

@@ -17,6 +17,7 @@ namespace Pharmacy_Management_System
         {
             InitializeComponent();
             dataGridView1_Products.DataSource = MedicineDL.medicines;
+            dataGridView1_Products.Columns[0].HeaderText = "Medicine Name";
         }
 
         public void Form2_ViewProduct_Load(object sender, EventArgs e)
@@ -36,6 +37,15 @@ namespace Pharmacy_Management_System
         private void btn_back_Click(object sender, EventArgs e)
         {
             User_Options_Menu.instance.frm_options.BringToFront();
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_Products_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
         }
     }
 }
